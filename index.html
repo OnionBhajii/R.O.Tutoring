@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RO Tutoring</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <div id="navbar"></div>
+
+<main>
+
+  <section id="top" class="hero">
+    <div class="hero-left">
+      <h1>Master Your GCSE & A-Level Exams</h1>
+      <p>Clear teaching, proven exam strategies, and structured guidance designed to help students achieve top grades.</p>
+      <a class="button" href="#contact">Get in touch</a>
+    </div>
+
+    <div class="hero-right">
+      <img src="images/erasebg-transformed.webp" alt="Hero Graphic" class="hero-image">
+    </div>
+  </section>
+  <section id = "testimonials" class="testimonials">
+    <div class="testimonials-container">
+      <h2>Student Success Stories</h2>
+      <p class="testimonials-subtitle">Real feedback from students and parents.</p>
+
+      <div class="testimonial-slider">
+        <button class="testimonial-btn prev-btn">&#10094;</button>
+
+        <div class="testimonial-card active">
+          <p class="testimonial-text">
+            "RO Tutoring helped me improve my confidence in maths so much. The lessons were clear, patient, and actually made difficult topics feel easy."
+          </p>
+          <h3>Sarah, Year 11</h3>
+        </div>
+
+        <div class="testimonial-card">
+          <p class="testimonial-text">
+            "My son’s grades improved within a few months, but more importantly, he actually started enjoying the subject again."
+          </p>
+          <h3>Parent of GCSE Student</h3>
+        </div>
+
+        <div class="testimonial-card">
+          <p class="testimonial-text">
+            "The teaching style was really supportive and easy to follow. I felt much more prepared going into my exams."
+          </p>
+          <h3>Daniel, A-Level Student</h3>
+        </div>
+
+        <button class="testimonial-btn next-btn">&#10095;</button>
+      </div>
+
+      <div class="testimonial-dots">
+        <span class="dot active-dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+  </section>
+
+  <section id="about-me" class="reveal">
+    <h2>Expert Tutoring. By Students, For Students.</h2>
+    <p>Founded by three high-achieving university students, our tutoring collective was born out of a passion for academic clarity. Between us, we bring three years of professional tutoring experience and a track record of top A-Level results.
+
+We believe that being "near-peers" gives us a unique edge: we understand the current exam climate better than anyone. We provide the tools, the shortcuts, and the confidence students need to excel in their A-Levels and beyond.</p>
+  </section>
+  
+  <section id="subjects-we-tutor" class="reveal">
+    <h2>Subjects</h2>
+
+        <h3>Maths</h3>
+
+        <h3>Economics</h3>
+
+        <h3>Biology</h3>
+  </section>
+
+  
+  <section id="pricing" class="reveal">
+    <h2>Affordable 1-to-1 Tutoring</h2>
+    <p class="pricing-subtitle">Clear pricing with a free trial lesson.</p>
+
+    <div class="pricing-preview">
+
+      <div class="pricing-option">
+        <h3>Free Trial Lesson</h3>
+        <p class="price">£0</p>
+        <p class="pricing-desc">Try a session for free and see how our tutoring works.</p>
+        <a class="button pricing-btn" href="contact.html">Book Free Trial</a>
+      </div>
+
+      <div class="pricing-option">
+        <h3>1-to-1 Tutoring</h3>
+        <p class="price">£35 / hour</p>
+        <p class="pricing-desc">Personalised GCSE & A-Level tutoring focused on exam success.</p>
+        <a class="button pricing-btn" href="contact.html">Book a Lesson</a>
+      </div>
+
+    </div>
+
+    <div class="pricing-footer">
+      <a class="button view-pricing-btn" href="pricing.html">View Full Pricing</a>
+    </div>
+
+  </section>
+  <section id="contact" class="reveal">
+    <h2>Contact</h2>
+    <p>Fill in the form below and we’ll get back to you as soon as possible.</p>
+
+
+    <form
+      class="contact-form"
+      action="https://formspree.io/f/myknzqde"
+      method="POST"
+    >
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your name" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Your email" required />
+
+      <label for="subject">Subject</label>
+      <input type="text" id="subject" name="subject" placeholder="What do you need help with?" required />
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="6" placeholder="Tell us a bit about what you need..." required></textarea>
+      <input type="hidden" name="_subject" value="New enquiry from RO Tutoring website" />
+      <button type="submit" class="button">Send Message</button>
+    </form>
+  </section>
+</main>
+<script src="scripts.js"></script>
+<script src="navbar.js"></script>
+</body>
+</html>
